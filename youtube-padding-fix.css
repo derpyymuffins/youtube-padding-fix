@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           YouTube Revert Search Bar Padding
+@namespace      https://github.com/derpyymuffins
+@version        1.0
+@description    Reverts the search bar padding back to its original value.
+@match          *://www.youtube.com/*
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+.ytSuggestionComponentSuggestion {
+        height: 35px !important;
+    }
+}
